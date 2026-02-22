@@ -153,20 +153,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // ===================================
-    // Parallax Effect for Hero
-    // ===================================
-    const hero = document.querySelector('.hero');
-
-    if (hero) {
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            if (scrolled < window.innerHeight) {
-                hero.style.transform = `translateY(${scrolled * 0.3}px)`;
-                hero.style.opacity = 1 - (scrolled / window.innerHeight * 0.5);
-            }
-        });
-    }
 
     // ===================================
     // Intersection Observer for Animations

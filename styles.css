@@ -11,8 +11,8 @@
     --color-warm-white: #FFFDF9;
     --color-terracotta: #C4846C;
     --color-terracotta-dark: #A66B54;
-    --color-navy: #1E3A5F;
-    --color-navy-light: #2D4A6F;
+    --color-navy: #0F2E75;
+    --color-navy-light: #1A3D85;
     --color-charcoal: #2C2C2C;
     --color-text: #3D3D3D;
     --color-text-light: #6B6B6B;
@@ -292,35 +292,6 @@ strong {
     flex-wrap: wrap;
 }
 
-.hero-scroll {
-    position: absolute;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.hero-scroll span {
-    font-size: 0.6875rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--color-text-light);
-}
-
-.scroll-line {
-    width: 1px;
-    height: 40px;
-    background: linear-gradient(to bottom, var(--color-text-light), transparent);
-    animation: scrollPulse 2s ease-in-out infinite;
-}
-
-@keyframes scrollPulse {
-    0%, 100% { opacity: 0.3; transform: scaleY(1); }
-    50% { opacity: 1; transform: scaleY(1.2); }
-}
 
 /* ===================================
    SECTION STYLES
@@ -599,7 +570,10 @@ section {
 .services-title {
     text-align: center;
     margin-bottom: var(--space-md);
-    font-size: 1.25rem;
+}
+
+.services-showcase .section-header {
+    margin-bottom: var(--space-md);
 }
 
 .services-grid {
