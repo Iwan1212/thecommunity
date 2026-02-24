@@ -170,7 +170,7 @@ strong {
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 0.25rem 2rem;
 }
 
 .logo {
@@ -179,8 +179,9 @@ strong {
 }
 
 .logo-img {
-    height: 80px;
+    height: 160px;
     width: auto;
+    margin: -2.6rem 0;
 }
 
 .logo-text {
@@ -439,7 +440,7 @@ section {
 
 .highlight-text {
     font-family: var(--font-serif);
-    font-size: 1.375rem !important;
+    font-size: 1.75rem !important;
     font-style: italic;
     color: var(--color-navy);
 }
@@ -470,9 +471,9 @@ section {
 }
 
 .value-icon {
-    font-size: 1.5rem;
-    margin-bottom: var(--space-sm);
-    opacity: 0.7;
+    font-size: 0.875rem;
+    margin-bottom: var(--space-xs);
+    opacity: 0.4;
 }
 
 .value-card h3 {
@@ -564,6 +565,7 @@ section {
 
 /* Services Showcase */
 .services-showcase {
+    margin-top: var(--space-xl);
     margin-bottom: var(--space-xl);
 }
 
@@ -1175,7 +1177,7 @@ section {
 .footer {
     background-color: var(--color-charcoal);
     color: white;
-    padding: var(--space-xl) 0 var(--space-md);
+    padding: 0.5rem 0 0.25rem;
 }
 
 .footer-content {
@@ -1183,17 +1185,17 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: var(--space-md);
-    margin-bottom: var(--space-lg);
-    padding-bottom: var(--space-lg);
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .footer-logo-img {
-    height: 50px;
+    height: 160px;
     width: auto;
     filter: brightness(0) invert(1);
-    margin-bottom: 0.5rem;
+    margin: -3rem auto -2rem;
 }
 
 .footer-brand .logo-text {
@@ -1229,7 +1231,7 @@ section {
 }
 
 .footer-social {
-    margin-top: 0.5rem;
+    margin-top: 0;
 }
 
 .footer-social a {
